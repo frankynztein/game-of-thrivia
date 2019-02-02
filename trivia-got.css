@@ -1,0 +1,70 @@
+html { 
+    background: url("jon-snow-got.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+body {
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+@font-face {
+  font-family: "gameOfThrones";
+  src: url("Game-of-Thrones.ttf");
+}
+
+h1 {
+    font-family: gameOfThrones;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+}
+
+button, #user-name, label, #next-11, #next-12, #results-btn {
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+#welcome-text {
+    text-transform: capitalize;
+}
+
+.container {
+    text-align: center;
+}
+
+#user-name-btn, #next-11, #next-12, #results-btn {
+    margin-top: 15px;
+}
+
+
+.div {
+    width: 200px;
+    margin:15px;
+}
+
+#intro, #welcome, #question-11, #question-12, #question-13, #results {
+    margin: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+
+/* , #welcome, #question-11, #question-12, #question-13, #results, img, p, button, h1, h2, input, label */
